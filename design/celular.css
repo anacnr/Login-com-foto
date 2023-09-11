@@ -64,11 +64,11 @@ main > form > #envio{
     font-size: 0.3em;
     animation: none;
     position: absolute;
-    transform: translate(42px , 95px);
+    transform: translate(42px , 105px);
     background-color: rgba(79, 195, 79, 0.964);
 }
 
-main > form > #resgate{
+main > form > #chance{
     width: 103px;
     height: 17px;
     padding-top: 4px;
@@ -77,7 +77,7 @@ main > form > #resgate{
     margin-bottom: 10px;
     animation: none;
     position: absolute;
-    transform: translate(42px , 108px);
+    transform: translate(42px , 120px);
     
 }
 
