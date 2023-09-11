@@ -14,8 +14,8 @@ main{
     display: inline-block;
     position: absolute;
     transform: translate(4% , -1%);
-    width: 95%;
-    height: 89%;
+    width: 75%;
+    height: 69%;
     box-shadow: none;
     border: none;
     margin-top: 2%;
@@ -66,7 +66,7 @@ main > form > #envio{
     font-size: 0.3em;
     animation: none;
     position: absolute;
-    transform: translate(42px , 125px);
+    transform: translate(42px , 95px);
     background-color: rgba(79, 195, 79, 0.964);
 }
 
@@ -79,7 +79,7 @@ main > form > #chance{
     margin-bottom: 10px;
     animation: none;
     position: absolute;
-    transform: translate(42px , 130px);
+    transform: translate(42px , 100px);
     
 }
 
