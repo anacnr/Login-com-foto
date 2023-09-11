@@ -146,3 +146,8 @@ button:hover{
         transform: scale(100%);
     }
 }
+
+span{
+    font-size: 1em;
+    text-align: center;
+}
