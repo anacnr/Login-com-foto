@@ -55,7 +55,7 @@ main > form{
 
 main > form > input{
     width: 77%;
-    height: 50%;
+    height: 30px;
     margin-bottom: 2%;
     margin-left: 10%;
     text-align: center;
@@ -68,7 +68,7 @@ main > form > input{
 }
 
 main > form > input::placeholder{
-    font-size: 0.6em;
+    font-size: 1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(126, 126, 102);
 
