@@ -109,7 +109,7 @@ main > #foto{
     border: 6%;
     margin-left: 10%;
     position: relative;
-    top: 6%;
+    top: 10%;
     
 }
 
@@ -125,7 +125,7 @@ main > #foto{
     border: 6%;
     margin-left: 10%;
     position: relative;
-    top: 4%;
+    top: 14%;
 }
 
 button:hover{
