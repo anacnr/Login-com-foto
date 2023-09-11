@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt - Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login com Media Query</title>
+    <link rel="stylesheet" href="design/visual.css" media="all">
+    <link rel="stylesheet" href="design/celular.css" media="screen and (orientation:portrait)">
+    <link rel="stylesheet" href="design/adapto.css" media="screen and (orientation:landscape)">
+    <!--Projeto de uma página com login responsivo, vou usar algumas técnicas que eu aprendi nesse curso com o professor-->
+</head>
+<body>
+    <main id="quadro">
+        <!--É a parte onde vai estar o formulário-->
+        <form action="acesso.php" method="post" id="dados">
+
+            <h1 id="titulo">Login</h1> <br>
+            <p id="frase">Olá usuário(a) faça seu login para acessar novamente a sua conta</p>
+
+            <label for="contato"></label>
+            <input type="email" name="usuario" id="contato" placeholder="E-mail ou G-mail" required> 
+
+            <label for="senha"></label>
+            <input type="password" name="seguro" id="senha" placeholder="Senha" required> 
+
+            <button type="submit" id="envio">Enviar</button> <br>
+            <button type="submit" id="resgate">Senha esquecida &#x1F4E9</button>
+        </form>
+
+        <!--É a parte onde vai ficar a imagem-->
+        <div id="foto">
+
+        </div>
+    </main>
+</body>
+</html>
