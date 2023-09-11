@@ -39,8 +39,8 @@ main > form > p{
     font-weight: lighter;
     text-align: center;
     margin-bottom: 9px;
-    padding-right: 4px;
-    padding-left: 4px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 main > form{
@@ -109,7 +109,7 @@ main > #foto{
     border: 6%;
     margin-left: 10%;
     position: relative;
-    top: 10%;
+    top: 50%;
     
 }
 
@@ -125,7 +125,7 @@ main > #foto{
     border: 6%;
     margin-left: 10%;
     position: relative;
-    top: 14%;
+    top: 60%;
 }
 
 button:hover{
