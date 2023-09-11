@@ -13,7 +13,7 @@ body, html{
 main{
     display: inline-block;
     position: absolute;
-    transform: translate(-25% , 50%);
+    transform: translate(-15% , 50%);
     width: 75%;
     height: 70%;
     box-shadow: none;
