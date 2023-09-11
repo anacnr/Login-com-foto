@@ -13,9 +13,9 @@ body, html{
 main{
     display: inline-block;
     position: absolute;
-    transform: translate(25% , 50%);
+    transform: translate(-25% , 50%);
     width: 75%;
-    height: 69%;
+    height: 70%;
     box-shadow: none;
     border: none;
     margin-top: 2%;
