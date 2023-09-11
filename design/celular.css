@@ -88,11 +88,3 @@ main > #foto{
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0%;
 }
-
-main::after{
-    content: "Página baseada no projeto de login com responsividade do Curso em Vídeo. Eu me baseiei nos deveres desse curso e me inspirei em outras aplicações.";
-    font-size: 0.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    position: absolute;
-    transform: translate(5px, 20px);
-}

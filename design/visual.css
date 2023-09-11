@@ -145,12 +145,3 @@ button:hover{
         transform: scale(100%);
     }
 }
-
-main::after{
-    content: "Página baseada no projeto do login do Curso em Vídeo. Eu me basiei nos deveres desse curso e me inspirei em outras aplicações.";
-    position: absolute;
-    transform: translate(7px, 200px);
-    font-size: 0.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 20px;
-}
