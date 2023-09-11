@@ -71,8 +71,6 @@ main > form > input::placeholder{
     font-size: 1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(126, 126, 102);
-
-
 }
 
 #contato{
@@ -102,7 +100,7 @@ main > #foto{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     padding: 3px;
-    width: 70%;
+    width: 77%;
     height: 30px;
     cursor: pointer;
     background-color: rgba(0, 128, 0, 0.553);
@@ -119,7 +117,7 @@ main > #foto{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     padding: 3px;
-    width: 80%;
+    width: 77%;
     height: 30px;
     cursor: pointer;
     border-style: none;
@@ -147,7 +145,7 @@ button:hover{
     }
 }
 
-span{
+span > p{
     font-size: 1em;
     text-align: center;
 }
