@@ -13,7 +13,7 @@ body, html{
 main{
     display: inline-block;
     position: absolute;
-    transform: translate(-15% , 50%);
+    transform: translate(15% , 25%);
     width: 75%;
     height: 70%;
     box-shadow: none;
@@ -22,13 +22,13 @@ main{
 }
 
 main > form > #titulo{
-font-size: 1em;
+    font-size: 1em;
 }
 
 main > form > #frase{
-font-size: 0.7em;
-padding-right: 20px;
-padding-left: 20px;
+    font-size: 0.7em;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 body > main > #dados{
@@ -66,7 +66,7 @@ main > form > #envio{
     font-size: 0.3em;
     animation: none;
     position: absolute;
-    transform: translate(22px , 65px);
+    transform: translate(35px , 65px);
     background-color: rgba(79, 195, 79, 0.964);
 }
 
@@ -79,7 +79,7 @@ main > form > #chance{
     margin-bottom: 10px;
     animation: none;
     position: absolute;
-    transform: translate(22px , 70px);
+    transform: translate(35px , 70px);
     
 }
 
@@ -94,4 +94,5 @@ main > #foto{
 span > p{
     font-size: 1em;
     text-align: center;
+    margin-top: 6%;
 }
