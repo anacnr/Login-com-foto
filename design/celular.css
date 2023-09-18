@@ -69,9 +69,6 @@ main > form > #envio{
     margin: auto;
     transform: translateY(-220%);
     background-color: rgba(79, 195, 79, 0.964);
-    /*position: absolute;
-    transform: translate(53px , 65px);
-    background-color: rgba(79, 195, 79, 0.964);*/
 }
 
 main > form > #chance{
@@ -82,8 +79,6 @@ main > form > #chance{
     margin-top: 8px;
     margin-bottom: 10px;
     animation: none;
-    /*position: absolute;
-    transform: translate(53px , 70px);*/
     display: block;
     margin: auto;
     transform: translateY(-370%);

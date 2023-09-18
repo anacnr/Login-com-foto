@@ -150,7 +150,65 @@ span > p{
     text-align: center;
 }
 
-/*Telas com largura pequena*/
+/*Celular na posição horizontal*/
+
+@media screen and (min-width:520px) and (max-width: 720px){
+    *{
+        margin:0%;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    main{
+        width: 90%;
+        height: 85%;
+        position: absolute;
+        transform: translate(6%, -9%);
+    }
+
+    main > form > h1{
+        font-size: 1em;
+    }
+
+    main > form > input{
+        height: 25px;
+        position: relative;
+        width: 55%;
+    }
+
+    main > form > #contato{
+        transform: translate(35px, -35px);
+    }
+
+    main > form > #senha{
+        transform: translate(35px, -38px);
+    }
+
+    main > form > input::placeholder{
+        font-size: smaller;
+    }
+
+    #quadro > #dados > button{
+        width: 55%;
+        height: 25px;
+        position: relative;
+    }
+
+    #quadro > #dados > #envio{
+        background-color:  rgba(0, 128, 0, 0.553);
+        transform: translate(35px, -22px);
+    }
+
+    #quadro > #dados > #chance{
+        transform: translate(35px , -23px);
+    }
+
+    span > p {
+        font-size: 0.7em;
+    }
+  }
+
+/*Telas com largura pequena
 @media screen and (min-width: 600px) and (max-width: 700px){
 
     *{
@@ -208,4 +266,4 @@ span > p{
     span > p{
         font-size: small;
     }
-    }
+    }*/
