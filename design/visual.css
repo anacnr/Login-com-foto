@@ -152,7 +152,8 @@ span > p{
 
 /*Celular na posição horizontal*/
 
-@media screen and (min-width:520px) and (max-width: 720px){
+/*@media screen and (min-width:520px) and (max-width: 720px)*/
+@media screen and (orientation:landscape){
     *{
         margin:0%;
         padding: 0px;

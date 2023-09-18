@@ -50,38 +50,38 @@ main > form > input{
 main > form > #contato , #senha{
     margin: auto;
     margin-bottom: 2%;
-    width: 100px;
-    height: 10px;
+    width: 130px;
+    height: 12px;
 }
 
 main > form > #contato::placeholder , #senha::placeholder{
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 main > form > #envio{
-    width: 103px;
-    height: 17px;
+    width: 135px;
+    height: 18px;
     padding-top: 4px;
     padding-bottom: 10px;
-    font-size: 0.3em;
+    font-size: 0.5em;
     animation: none;
     display: block;
     margin: auto;
-    transform: translateY(-220%);
+    transform: translate(2%,-65%);
     background-color: rgba(79, 195, 79, 0.964);
 }
 
 main > form > #chance{
-    width: 103px;
-    height: 17px;
+    width: 135px;
+    height: 18px;
     padding-top: 4px;
-    font-size: 0.3em;
+    font-size: 0.5em;
     margin-top: 8px;
     margin-bottom: 10px;
     animation: none;
     display: block;
     margin: auto;
-    transform: translateY(-370%);
+    transform: translate(2%,-185%);
 }
 
 main > #foto{
