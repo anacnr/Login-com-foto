@@ -108,7 +108,7 @@ main > #foto{
     border: 6%;
     margin-left: 10%;
     position: relative;
-    top: 20%;
+    top: 8%;
     
 }
 
@@ -124,7 +124,7 @@ main > #foto{
     border: 6%;
     margin-left: 10%;
     position: relative;
-    top: 25%;
+    top: 10%;
 }
 
 button:hover{
@@ -150,6 +150,7 @@ span > p{
     text-align: center;
 }
 
+/*Telas com largura pequena*/
 @media screen and (min-width: 600px) and (max-width: 700px){
 
     *{
